@@ -6,3 +6,6 @@ body{
 div#wrapper-nav{
     display: inline-block;
 }
+ul.mainnav{
+    list-style-type: none;
+}
