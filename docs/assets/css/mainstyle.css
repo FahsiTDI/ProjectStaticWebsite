@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+body{
+    font-family: 'Amiri', serif;
+}
+div#wrapper-nav{
+    display: inline-block;
+}
