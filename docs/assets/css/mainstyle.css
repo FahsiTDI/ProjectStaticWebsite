@@ -8,4 +8,5 @@ div#wrapper-nav{
 }
 ul.mainnav{
     list-style-type: none;
+    flex-direction: row;
 }
