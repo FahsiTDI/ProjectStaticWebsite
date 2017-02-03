@@ -8,22 +8,45 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		vertical-align: baseline;
 	}
 body{
-    font-family: "Droid Arabic Kufi" , serif;
+    font-family: 'Droid Arabic Kufi' , serif;
+    /*font-weight: 550;*/
 }
 nav{
+    display: flex;
     direction: rtl;
     height: 72px;
     width: 100%;
     line-height: 72px;
+    background-color: #16a085;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
 }
-ul.mainnav{
-    margin-right: 40px;
+.mainnav, .user{
+    margin-right: 80px;
     list-style-type: none;
 }
-nav li{
+nav div, nav li{
     display: inline-block;
     margin-right: 10px;
+    color: white;
+}
+nav li a{
+    color: inherit;
+    text-decoration: inherit;
 }
 .searchbox{
     display: inline-block;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    padding: 7px 15px;
+    height: 19px;
+    width: 180px;
+}
+textarea::-webkit-input-placeholder {
+color: green;
 }
