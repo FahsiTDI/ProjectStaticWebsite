@@ -7,24 +7,69 @@
         <link href="assets/css/mainstyle.css" rel="stylesheet">
     </head>
     <body>
+        <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="assets/js/jssor.slider-22.1.9.mini.js" type="text/javascript"></script>
+        <script src="assets/js/functions.js" type="text/javascript"></script>
         <div id="wrapper-nav">
             <nav class="navbar">
                 <div class="mainnav">
-                    <li> <a href="index.html">الرئيسية</a> </li>
-                    <li> <a href="#"></a> لائحة الأفلام</li>
-                    <li>لائحة المسلسلات</li>
-                    <li>الأخبار</li>
+                    <li><a href="index.html">الرئيسية</a> </li>
+                    <li><a href="#"> لائحة الأفلام</a></li>
+                    <li><a href="#">لائحة المسلسلات</a></li>
+                    <li><a href="#">الأخبار</a></li>
                 </div>
                 <div class="user">
                     <li><input type="text" class="searchbox" placeholder="البحث"></li>
-                    <li>التسجيل</li>
-                    <li>تسجيل الدخول</li>    
+                    <li><a href="#">التسجيل</a></li>
+                    <li><a href="#">تسجيل الدخول</a></li>    
                 </div>
                 
             </nav>
             <div class="banner" id="banner">
-                
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                    <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                </div>
+                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+                    <div>
+                        <img data-u="image" src="assets/img/red.jpg" />
+                        <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">TOUCH SWIPE SLIDER</div>
+                        <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="assets/img/purple.jpg" />
+                    </div>
+                    <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+                    <div>
+                        <img data-u="image" src="assets/img/blue.jpg" />
+                    </div>
+                </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                    <!-- bullet navigator item prototype -->
+                    <div data-u="prototype" style="width:16px;height:16px;"></div>
+                </div>
+                <!-- Arrow Navigator -->
+                <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+                <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
             </div>
+            <!-- #endregion Jssor Slider End -->
+            </div>
+        </div>
+        <!-- end banner -->
+        <div >
+            <ul class="second-nav">
+                <li><a href="#">أكشن</a></li>
+                <li><a href="#">إثارة</a></li>
+                <li><a href="#">جريمة</a></li>
+                <li><a href="#">كوميديا</a></li>
+                <li><a href="#">دراما</a></li>
+                <li><a href="#">رعب</a></li>
+                <li><a href="#">رومنسية</a></li>
+                <li><a href="#">تاريخي</a></li>
+            </ul>
         </div>
     </body>
 </html>
