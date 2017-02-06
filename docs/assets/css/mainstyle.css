@@ -129,3 +129,85 @@ color: green;
     color: inherit;
     text-decoration: inherit;
 }
+.showcase{
+    display: flex;
+    direction: rtl;
+    background-color: #2d3538;
+}
+.showcase ul li{
+    list-style-type : none;
+
+}
+.showcase ul{
+    display: flex;
+    direction: rtl;
+}
+.showcase-right{
+    background: #293033;
+    border-left: 1px solid #202628;
+    width: 20%;
+    height: 425px;
+    color: #fff;
+    float: right;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.showcase-right h1{
+    width: 200px;
+    margin: 130px auto 0;
+    font-weight: bold;
+}
+.showcase-right a{
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    width: 190px;
+    margin: 25px auto 0;
+    display: block;
+    background-position: -300px -145px;
+    transition: all 0.6s ease-in 0s;
+}
+.showcase-content{
+    width: 80%;
+    float: left;
+    position: relative;
+    height: 425px;
+    background: #2d3538;
+    overflow-x:scroll;
+}
+.showitems{
+    height: 340px;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+
+}
+.showitems li{
+    float: right;
+    margin-right: 58px;
+    display: inline;
+    width: 200px;
+}
+.showitems li p{
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    background: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.showitems li a{
+    color: #000;
+    display: block;
+    position: relative;
+}
