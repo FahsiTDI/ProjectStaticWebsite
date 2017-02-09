@@ -187,10 +187,8 @@ color: green;
 
 }
 .showitems li{
-    float: right;
     margin-right: 58px;
     display: inline;
-    width: 200px;
 }
 .showitems li p{
     height: 30px;
